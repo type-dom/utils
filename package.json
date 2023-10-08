@@ -12,8 +12,8 @@
   },
   "private": true,
   "devDependencies": {
-    "lerna": "^7.2.0",
-    "nx": "16.8.1",
+    "lerna": "^7.3.0",
+    "nx": "^16.10.0",
     "nx-cloud": "latest"
   },
   "workspaces": [

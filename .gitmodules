@@ -1,0 +1,24 @@
+[submodule "packages/ofd-editor"]
+	path = packages/ofd-editor
+	url = https://github.com/xjf7711/ofd-editor.git
+[submodule "packages/ofd-file"]
+    path = packages/ofd-file
+    url = https://github.com/xjf7711/ofd-file.git
+[submodule "packages/type-dom-app"]
+    path = packages/type-dom-app
+    url = https://github.com/xjf7711/type-dom-app.git
+[submodule "packages/type-dom-svgs"]
+    path = packages/type-dom-svgs
+    url = https://github.com/xjf7711/type-dom-svgs.git
+[submodule "packages/type-dom-ui"]
+    path = packages/type-dom-ui
+    url = https://github.com/xjf7711/type-dom-ui.git
+[submodule "packages/type-dom.ts"]
+    path = packages/type-dom.ts
+    url = https://github.com/xjf7711/type-dom.ts.git
+[submodule "packages/type-form"]
+    path = packages/type-form
+    url = https://github.com/xjf7711/type-form.git
+[submodule "packages/type-node-parser"]
+    path = packages/type-node-parser
+    url = https://github.com/xjf7711/type-node-parser.git
