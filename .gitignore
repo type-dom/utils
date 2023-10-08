@@ -6,7 +6,7 @@ tmp
 /out-tsc
 
 # dependencies
-node_modules
+*/node_modules/
 
 # IDEs and editors
 /.idea
@@ -35,5 +35,8 @@ testem.log
 /typings
 
 # System Files
-.DS_Store
+####################################
+######## OS generated files ########
+####################################
+*.DS_Store
 Thumbs.db

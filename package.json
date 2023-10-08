@@ -1,15 +1,25 @@
 {
-  "name": "org",
-  "version": "0.0.0",
+  "name": "nx-workspace",
+  "version": "independent",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:all": "nx run-many -t build",
+    "build:since": "nx affected -t build",
+    "test:all": "nx run-many -t test",
+    "test:since": "nx affected -t test",
+    "dev": "nx run-many -t dev",
+    "serve": "nx run-many -t serve --parallel=8"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "nx": "16.7.4",
+    "lerna": "^7.2.0",
+    "nx": "16.8.1",
     "nx-cloud": "latest"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "volta": {
+    "node": "18.17.1"
+  }
 }
