@@ -22,3 +22,6 @@
 [submodule "packages/type-node-parser"]
     path = packages/type-node-parser
     url = https://github.com/xjf7711/type-node-parser.git
+[submodule "type-dom-svgs-server"]
+	path = type-dom-svgs-server
+	url = https://github.com/xjf7711/type-dom-svgs-server.git
