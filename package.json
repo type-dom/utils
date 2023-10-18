@@ -20,7 +20,7 @@
   },
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "libs/*"
   ],
   "volta": {
     "node": "18.17.1"
