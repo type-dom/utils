@@ -4,6 +4,6 @@ import { ElementPlusSvgService } from './element-plus-svg.service';
 
 @Module({
   controllers: [ElementPlusSvgController],
-  providers: [ElementPlusSvgService]
+  providers: [ElementPlusSvgService],
 })
 export class ElementPlusSvgModule {}

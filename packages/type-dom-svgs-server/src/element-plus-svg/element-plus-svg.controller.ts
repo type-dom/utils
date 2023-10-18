@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { ElementPlusSvgService } from './element-plus-svg.service';
-import {ApiOperation, ApiTags} from '@nestjs/swagger';
+import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { performance } from 'perf_hooks';
 @ApiTags('element-plus svg controller')
 @Controller('element-plus-svg')

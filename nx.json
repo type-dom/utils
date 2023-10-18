@@ -22,6 +22,7 @@
           "test",
           "e2e"
         ],
+        "parallel": 8,
         "accessToken": "MzU2YzQyZjYtNjhlYy00OTNlLWFlNzgtYjk3NTk2NDJmODllfHJlYWQtd3JpdGU="
       }
     }
