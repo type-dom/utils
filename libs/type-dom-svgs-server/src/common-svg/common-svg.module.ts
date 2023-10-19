@@ -4,6 +4,6 @@ import { CommonSvgService } from './common-svg.service';
 
 @Module({
   controllers: [CommonSvgController],
-  providers: [CommonSvgService]
+  providers: [CommonSvgService],
 })
 export class CommonSvgModule {}

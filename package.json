@@ -5,19 +5,22 @@
   "scripts": {
     "build:all": "nx run-many -t build",
     "build:since": "nx affected -t build",
+    "lint": "nx run-many -t lint",
+    "lint-fix": "nx run-many -t lint-fix",
     "test:all": "nx run-many -t test",
     "test:since": "nx affected -t test",
     "dev": "nx run-many -t dev",
-    "serve": "nx run-many -t serve --parallel=8"
+    "serve": "nx run-many -t serve"
   },
   "private": true,
   "devDependencies": {
-    "lerna": "^7.3.0",
+    "lerna": "^7.3.1",
     "nx": "^16.10.0",
     "nx-cloud": "latest"
   },
   "workspaces": [
-    "packages/*"
+    "apps/*",
+    "libs/*"
   ],
   "volta": {
     "node": "18.17.1"
