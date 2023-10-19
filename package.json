@@ -10,10 +10,15 @@
     "test:all": "nx run-many -t test",
     "test:since": "nx affected -t test",
     "dev": "nx run-many -t dev",
-    "serve": "nx run-many -t serve"
+    "serve": "nx run-many -t serve",
+    "release": "cross-env HUSKY_BYPASS=true lerna publish"
   },
   "private": true,
   "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
     "lerna": "^7.3.1",
     "nx": "^16.10.0",
     "nx-cloud": "latest"
@@ -24,5 +29,15 @@
   ],
   "volta": {
     "node": "18.17.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
