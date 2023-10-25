@@ -1,5 +1,4 @@
 let fs = require('fs');
-// const Parser = require('type-dom-parser');
 const SVG_PATH = './public/common';
 const INDEX_PATH = './src/common';
 const CLASS_PATH = './src/common';

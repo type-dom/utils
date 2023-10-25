@@ -3,13 +3,12 @@
   "version": "independent",
   "license": "MIT",
   "scripts": {
-    "build:all": "nx run-many -t build",
+    "build": "nx run-many -t build",
     "build:since": "nx affected -t build",
     "lint": "nx run-many -t lint",
     "lint-fix": "nx run-many -t lint-fix",
-    "test:all": "nx run-many -t test",
+    "test": "nx run-many -t test",
     "test:since": "nx affected -t test",
-    "dev": "nx run-many -t dev",
     "serve": "nx run-many -t serve",
     "release": "cross-env HUSKY_BYPASS=true lerna publish"
   },
@@ -17,10 +16,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
     "@commitlint/config-conventional": "^17.8.0",
+    "@nx/eslint-plugin": "^17.0.0",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
-    "lerna": "^7.3.1",
-    "nx": "^16.10.0",
+    "lerna": "^7.4.1",
+    "nx": "^17.0.0",
     "nx-cloud": "latest"
   },
   "workspaces": [
@@ -39,5 +39,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "dependencies": {
+    "@nx/devkit": "^17.0.0"
   }
 }

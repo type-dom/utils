@@ -1,0 +1,25 @@
+[NX Daemon Server] - 2023-10-25T04:31:49.344Z - Started listening on: /var/folders/nt/czpt1zj90jq63rql3p4nl59c0000gn/T/5d476e36331c4ff7156d/d.sock
+[NX Daemon Server] - 2023-10-25T04:31:49.600Z - [WATCHER]: Subscribed to changes within: /Users/jianfengxu/Documents/MY-GIT/nx-workspace (native)
+[NX Daemon Server] - 2023-10-25T04:31:49.609Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T04:31:49.623Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T04:31:49.630Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T04:31:50.090Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T04:31:50.091Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T04:31:50.091Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T04:31:50.310Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T04:31:50.314Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T04:31:50.315Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 681. Response time: 5.
+[NX Daemon Server] - 2023-10-25T04:31:50.316Z - Time taken for 'total for creating and serializing project graph' 680.1479330062866ms
+[NX Daemon Server] - 2023-10-25T04:31:50.316Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T04:31:50.319Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T04:31:50.319Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-25T04:31:50.320Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T04:31:50.350Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-10-25T04:31:50.355Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T04:31:50.493Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T04:31:50.594Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-10-25T04:31:50.595Z - Handled REQUEST_FILE_DATA. Handling time: 17. Response time: 245.
+[NX Daemon Server] - 2023-10-25T04:40:28.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T04:40:28.082Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX Daemon Server] - 2023-10-25T04:40:28.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T04:40:28.149Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted

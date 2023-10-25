@@ -1,0 +1,9 @@
+{
+  "plugins": ["@nx"],
+  "rules": {
+    "@nx/enforce-module-boundaries": [
+      "error",
+      {}
+    ]
+  }
+}

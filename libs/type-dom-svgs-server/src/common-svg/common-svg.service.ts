@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import { Injectable } from '@nestjs/common';
 import { TypeNodeParser } from 'type-node-parser';
+// import { Parser } from 'type-dom.ts';
 import { toHump } from '../utils';
 const SVG_PATH = './src/common-svg/svg-files';
 const INDEX_PATH = '../type-dom-svgs/src/common';
@@ -26,8 +27,8 @@ export class CommonSvgService {
           }
           const svgStr = data.toString();
           console.log('svgStr is ', svgStr);
-          // const parser = new Parser({});
           const parser = new TypeNodeParser({});
+          // const parser = new Parser();
           const svgDom = parser.parseFromString(svgStr);
           console.log('svgDom is ', svgDom);
           const paths = [];
