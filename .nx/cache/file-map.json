@@ -68,6 +68,14 @@
       {
         "file": "package.json",
         "hash": "16034121959326073345"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "17064725244044288119"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "6714139664348906907"
       }
     ],
     "projectFileMap": {
@@ -1986,6 +1994,10 @@
         {
           "file": "libs/type-node-parser/tsconfig.json",
           "hash": "904299366401150096"
+        },
+        {
+          "file": "libs/type-node-parser/.git/index",
+          "hash": "1115234194743667818"
         }
       ],
       "type-dom.ts": [

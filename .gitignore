@@ -25,6 +25,8 @@ tmp
 !.vscode/extensions.json
 
 # misc
+.nx
+.husky
 /.sass-cache
 /connect.lock
 /coverage
