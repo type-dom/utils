@@ -2038,3 +2038,906 @@ fatal: Pathspec 'libs/type-node-parser/.git/index' is in submodule 'libs/type-no
 [NX Daemon Server] - 2023-10-25T04:41:37.861Z - [WATCHER]: Stopping the watcher for /Users/jianfengxu/Documents/MY-GIT/nx-workspace (sources)
 [NX Daemon Server] - 2023-10-25T04:41:37.862Z - [WATCHER]: Stopping the watcher for /Users/jianfengxu/Documents/MY-GIT/nx-workspace (outputs)
 [NX Daemon Server] - 2023-10-25T04:41:37.863Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2023-10-25T09:01:23.704Z - Started listening on: /var/folders/nt/czpt1zj90jq63rql3p4nl59c0000gn/T/5d476e36331c4ff7156d/d.sock
+[NX Daemon Server] - 2023-10-25T09:01:23.710Z - [WATCHER]: Subscribed to changes within: /Users/jianfengxu/Documents/MY-GIT/nx-workspace (native)
+[NX Daemon Server] - 2023-10-25T09:01:23.712Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T09:01:23.719Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T09:01:23.723Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T09:01:23.727Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T09:01:24.116Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:01:24.116Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:01:24.116Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:01:24.178Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T09:01:24.179Z - Time taken for 'total for creating and serializing project graph' 451.5928509235382ms
+[NX Daemon Server] - 2023-10-25T09:01:24.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:01:24.185Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T09:01:24.185Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 452. Response time: 7.
+[NX Daemon Server] - 2023-10-25T09:01:24.236Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:01:24.382Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T09:01:24.382Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T09:01:24.382Z - Handled HASH_TASKS. Handling time: 34. Response time: 0.
+[NX Daemon Server] - 2023-10-25T09:01:28.898Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:05:06.654Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T09:05:06.655Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/type-dom-app/src/app-root.ts' is in submodule 'apps/type-dom-app'
+[NX Daemon Server] - 2023-10-25T09:05:06.842Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:05:06.842Z - [REQUEST]: libs/type-dom.ts/src/type-root/type-root.interface.ts,apps/type-dom-app/src/app-root.ts,libs/type-dom.ts/src/type-root/type-root.abstract.ts
+[NX Daemon Server] - 2023-10-25T09:05:06.842Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:05:06.920Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:05:06.920Z - Time taken for 'hash changed files from watcher' 65.67063999176025ms
+[NX Daemon Server] - 2023-10-25T09:05:06.975Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:05:11.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:07:49.388Z - [WATCHER]: libs/type-dom.ts/src/type-root/type-root.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T09:07:49.388Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-root/type-root.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T09:07:49.650Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:07:49.650Z - [REQUEST]: libs/type-dom.ts/src/type-root/type-root.abstract.ts
+[NX Daemon Server] - 2023-10-25T09:07:49.651Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:07:49.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:07:49.749Z - Time taken for 'hash changed files from watcher' 46.498058795928955ms
+[NX Daemon Server] - 2023-10-25T09:07:49.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:09:28.396Z - [WATCHER]: apps/type-dom-app/src/app-root.ts was modified
+[NX Daemon Server] - 2023-10-25T09:09:28.444Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:09:28.596Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/type-dom-app/src/app-root.ts' is in submodule 'apps/type-dom-app'
+[NX Daemon Server] - 2023-10-25T09:09:28.855Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:09:28.855Z - [REQUEST]: apps/type-dom-app/src/app-root.ts
+[NX Daemon Server] - 2023-10-25T09:09:28.855Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:09:28.927Z - Time taken for 'hash changed files from watcher' 45.35078310966492ms
+[NX Daemon Server] - 2023-10-25T09:09:28.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:09:32.363Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T09:09:33.613Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:09:47.659Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T09:09:47.660Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T09:09:47.661Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T09:09:47.662Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T09:09:47.663Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T09:09:47.663Z - Time taken for 'total for creating and serializing project graph' 0.15202999114990234ms
+[NX Daemon Server] - 2023-10-25T09:09:47.663Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T09:09:47.663Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-10-25T09:09:47.849Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T09:09:47.849Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T09:09:47.849Z - Handled HASH_TASKS. Handling time: 24. Response time: 0.
+[NX Daemon Server] - 2023-10-25T09:18:58.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:37:23.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:37:23.515Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:43:09.176Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was created or restored
+[NX Daemon Server] - 2023-10-25T09:43:09.179Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T09:43:09.362Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:43:09.362Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T09:43:09.362Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:43:09.402Z - Time taken for 'hash changed files from watcher' 62.79060101509094ms
+[NX Daemon Server] - 2023-10-25T09:43:09.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:43:09.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:43:11.074Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2023-10-25T09:43:11.074Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/.git/index' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T09:43:11.240Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:43:11.240Z - [REQUEST]: libs/type-dom-ui/.git/index,libs/type-dom-ui/.git/objects/99/a3e086bb54a1bc9a59225f8c2e7deb6c734f25
+[NX Daemon Server] - 2023-10-25T09:43:11.240Z - [REQUEST]: libs/type-dom-ui/.git/objects/99/tmp_obj_4gWgKb,libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T09:43:11.274Z - Time taken for 'hash changed files from watcher' 53.62179899215698ms
+[NX Daemon Server] - 2023-10-25T09:43:11.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:49:15.201Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was modified
+[NX Daemon Server] - 2023-10-25T09:49:15.202Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T09:49:15.689Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T09:49:15.689Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T09:49:15.689Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T09:49:15.782Z - Time taken for 'hash changed files from watcher' 149.35651803016663ms
+[NX Daemon Server] - 2023-10-25T09:49:15.795Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:49:15.849Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T09:49:20.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T10:04:58.239Z - [WATCHER]: libs/type-dom-ui/public/ui-root.ts was modified
+[NX Daemon Server] - 2023-10-25T10:04:58.240Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T10:04:58.704Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T10:04:58.704Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T10:04:58.704Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T10:04:58.732Z - Time taken for 'hash changed files from watcher' 51.560433864593506ms
+[NX Daemon Server] - 2023-10-25T10:04:58.813Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T10:05:12.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T10:05:12.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T10:08:43.116Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was modified
+[NX Daemon Server] - 2023-10-25T10:08:43.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T10:08:43.231Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T10:08:44.015Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T10:08:44.015Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T10:08:44.015Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T10:08:44.037Z - Time taken for 'hash changed files from watcher' 47.37967896461487ms
+[NX Daemon Server] - 2023-10-25T10:08:44.092Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:21:50.499Z - [WATCHER]: libs/type-dom-ui/public/ui-root.ts was modified
+[NX Daemon Server] - 2023-10-25T11:21:50.500Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:21:50.569Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:21:50.653Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:21:52.178Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:21:52.178Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T11:21:52.178Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:21:52.209Z - Time taken for 'hash changed files from watcher' 57.47715401649475ms
+[NX Daemon Server] - 2023-10-25T11:21:52.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:21:55.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:25:37.638Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was modified
+[NX Daemon Server] - 2023-10-25T11:25:37.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:25:37.946Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:25:40.910Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:25:40.910Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T11:25:40.910Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:25:40.968Z - Time taken for 'hash changed files from watcher' 54.41756010055542ms
+[NX Daemon Server] - 2023-10-25T11:25:41.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:26:09.376Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was modified
+[NX Daemon Server] - 2023-10-25T11:26:09.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:26:09.571Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:26:09.780Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:26:14.779Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:26:15.823Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:26:15.824Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T11:26:15.824Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:26:15.856Z - Time taken for 'hash changed files from watcher' 32.022900104522705ms
+[NX Daemon Server] - 2023-10-25T11:26:15.907Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:26:41.086Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.ts was modified
+[NX Daemon Server] - 2023-10-25T11:26:41.087Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:26:47.526Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:26:47.526Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T11:26:47.526Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:26:47.552Z - Time taken for 'hash changed files from watcher' 30.250148057937622ms
+[NX Daemon Server] - 2023-10-25T11:26:47.606Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:23.191Z - [WATCHER]: libs/type-dom-ui/src/form/input-item/input-item.interface.ts was created or restored
+[NX Daemon Server] - 2023-10-25T11:30:23.192Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.interface.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:30:23.374Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:30:23.374Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.interface.ts
+[NX Daemon Server] - 2023-10-25T11:30:23.374Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:30:23.413Z - Time taken for 'hash changed files from watcher' 68.47515797615051ms
+[NX Daemon Server] - 2023-10-25T11:30:23.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:23.583Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:25.496Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:30:25.497Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/.git/index' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:30:25.708Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:30:25.708Z - [REQUEST]: libs/type-dom-ui/.git/index
+[NX Daemon Server] - 2023-10-25T11:30:25.708Z - [REQUEST]: libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T11:30:25.744Z - Time taken for 'hash changed files from watcher' 54.46965789794922ms
+[NX Daemon Server] - 2023-10-25T11:30:25.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:28.632Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:44.259Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:30:44.259Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/input-item.class.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:30:44.567Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:30:44.567Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.class.ts
+[NX Daemon Server] - 2023-10-25T11:30:44.567Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.ts
+[NX Daemon Server] - 2023-10-25T11:30:44.664Z - Time taken for 'hash changed files from watcher' 92.27643299102783ms
+[NX Daemon Server] - 2023-10-25T11:30:44.714Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:44.857Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:46.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:30:46.667Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+fatal: Pathspec 'libs/type-dom-ui/.git/objects/0b/d3ef087c3c3006beee1c668a6050b3ed4ad93d' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:30:46.863Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:30:46.863Z - [REQUEST]: libs/type-dom-ui/.git/objects/0b/d3ef087c3c3006beee1c668a6050b3ed4ad93d,libs/type-dom-ui/.git/index
+[NX Daemon Server] - 2023-10-25T11:30:46.864Z - [REQUEST]: libs/type-dom-ui/.git/objects/0b/tmp_obj_G7VsgS,libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T11:30:46.929Z - Time taken for 'hash changed files from watcher' 79.1714539527893ms
+[NX Daemon Server] - 2023-10-25T11:30:46.987Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:31:55.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:33:52.092Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:33:52.101Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/td-input-item.class.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:33:52.360Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:33:52.360Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/td-input-item.class.ts
+[NX Daemon Server] - 2023-10-25T11:33:52.360Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.class.ts
+[NX Daemon Server] - 2023-10-25T11:33:52.419Z - Time taken for 'hash changed files from watcher' 46.2323100566864ms
+[NX Daemon Server] - 2023-10-25T11:33:52.476Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:33:52.849Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:33:52.858Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/.git/index' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:33:53.021Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:33:53.021Z - [REQUEST]: libs/type-dom-ui/.git/index
+[NX Daemon Server] - 2023-10-25T11:33:53.021Z - [REQUEST]: libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T11:33:53.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:33:53.080Z - Time taken for 'hash changed files from watcher' 56.183279037475586ms
+[NX Daemon Server] - 2023-10-25T11:33:53.130Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:34:06.214Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:34:06.214Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/td-input-item.interface.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:34:06.379Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:34:06.379Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/td-input-item.interface.ts
+[NX Daemon Server] - 2023-10-25T11:34:06.379Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/input-item.interface.ts
+[NX Daemon Server] - 2023-10-25T11:34:06.409Z - Time taken for 'hash changed files from watcher' 44.9017539024353ms
+[NX Daemon Server] - 2023-10-25T11:34:06.464Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:34:06.513Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:34:06.547Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/.git/index' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:34:06.703Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:34:06.703Z - [REQUEST]: libs/type-dom-ui/.git/index
+[NX Daemon Server] - 2023-10-25T11:34:06.703Z - [REQUEST]: libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T11:34:06.740Z - Time taken for 'hash changed files from watcher' 57.40046405792236ms
+[NX Daemon Server] - 2023-10-25T11:34:06.805Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:34:06.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:34:11.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:35:03.162Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:35:03.185Z - [WATCHER]: 0 file(s) created or restored, 5 file(s) modified, 0 file(s) deleted
+fatal: Pathspec 'apps/type-form-designer/eslint_log.log' is in submodule 'apps/type-form-designer'
+[NX Daemon Server] - 2023-10-25T11:35:03.485Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:35:03.485Z - [REQUEST]: apps/type-form-designer/eslint_log.log,libs/type-dom-ui/src/form/index.ts,libs/type-dom-ui/public/ui-root.ts,apps/type-form-designer/out.svg,libs/type-dom-ui/src/form/input-item/td-input-item.class.ts
+[NX Daemon Server] - 2023-10-25T11:35:03.485Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:35:03.583Z - Time taken for 'hash changed files from watcher' 84.14200210571289ms
+[NX Daemon Server] - 2023-10-25T11:35:03.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:35:03.770Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:35:04.030Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:35:15.514Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:43:51.389Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:43:51.390Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:43:51.921Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:43:51.922Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts,libs/type-dom-ui/src/form/input-item/td-input-item.class.ts,libs/type-dom-ui/src/form/input-item/td-input-item.interface.ts,libs/type-dom-ui/src/form/index.ts
+[NX Daemon Server] - 2023-10-25T11:43:51.922Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:43:51.960Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:43:51.960Z - Time taken for 'hash changed files from watcher' 64.49972414970398ms
+[NX Daemon Server] - 2023-10-25T11:43:52.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:43:56.890Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:46:49.953Z - [WATCHER]: libs/type-dom-ui/public/button-wrapper.ts was created or restored
+[NX Daemon Server] - 2023-10-25T11:46:49.954Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/button-wrapper.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:46:50.215Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:46:50.216Z - [REQUEST]: libs/type-dom-ui/public/button-wrapper.ts
+[NX Daemon Server] - 2023-10-25T11:46:50.216Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:46:50.286Z - Time taken for 'hash changed files from watcher' 60.51602292060852ms
+[NX Daemon Server] - 2023-10-25T11:46:50.331Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:46:50.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:46:51.121Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:46:51.122Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/.git/index' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:46:51.333Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:46:51.333Z - [REQUEST]: libs/type-dom-ui/.git/index
+[NX Daemon Server] - 2023-10-25T11:46:51.333Z - [REQUEST]: libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-25T11:46:51.420Z - Time taken for 'hash changed files from watcher' 52.68526005744934ms
+[NX Daemon Server] - 2023-10-25T11:46:51.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:57:04.582Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T11:57:04.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:57:04.642Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/button-wrapper.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T11:57:04.891Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T11:57:04.891Z - [REQUEST]: libs/type-dom-ui/public/button-wrapper.ts,libs/type-dom.ts/src/type-element/type-component/type-component.abstract.ts,libs/type-dom-ui/public/ui-root.ts,libs/type-dom.ts/src/type-element/type-component/type-component.interface.ts
+[NX Daemon Server] - 2023-10-25T11:57:04.891Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T11:57:04.963Z - Time taken for 'hash changed files from watcher' 73.80433320999146ms
+[NX Daemon Server] - 2023-10-25T11:57:05.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:57:09.661Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:57:25.407Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T11:57:25.527Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:05:26.969Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:05:26.970Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/button-wrapper.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:05:27.530Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:05:27.530Z - [REQUEST]: libs/type-dom-ui/public/button-wrapper.ts,libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T12:05:27.530Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:05:27.716Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:05:27.716Z - Time taken for 'hash changed files from watcher' 84.95087695121765ms
+[NX Daemon Server] - 2023-10-25T12:05:27.772Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:05:32.116Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:05:33.767Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-10-25T12:05:33.767Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-10-25T12:05:33.768Z - Handled RECORD_OUTPUTS_HASH. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2023-10-25T12:05:33.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:05:34.052Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T12:08:02.048Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T12:08:02.058Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T12:08:02.061Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T12:08:02.061Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T12:08:02.062Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T12:08:02.062Z - Time taken for 'total for creating and serializing project graph' 0.27320194244384766ms
+[NX Daemon Server] - 2023-10-25T12:08:02.063Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T12:08:02.063Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2023-10-25T12:08:02.065Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T12:08:02.068Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T12:08:02.073Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-25T12:08:02.074Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T12:08:02.088Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-10-25T12:08:02.354Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-10-25T12:08:02.355Z - Handled REQUEST_FILE_DATA. Handling time: 12. Response time: 267.
+[NX Daemon Server] - 2023-10-25T12:10:26.528Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:29:19.302Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:29:19.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:29:19.385Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:29:19.468Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:29:19.468Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-component/type-component.abstract.ts,libs/type-dom-ui/public/ui-root.ts,libs/type-dom-ui/public/button-wrapper.ts
+[NX Daemon Server] - 2023-10-25T12:29:19.468Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:29:19.503Z - Time taken for 'hash changed files from watcher' 55.2188720703125ms
+[NX Daemon Server] - 2023-10-25T12:29:19.561Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:29:24.392Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:29:35.026Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T12:29:35.027Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T12:29:35.030Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T12:29:35.035Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T12:29:35.036Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T12:29:35.036Z - Time taken for 'total for creating and serializing project graph' 0.24237704277038574ms
+[NX Daemon Server] - 2023-10-25T12:29:35.044Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T12:29:35.044Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 8.
+[NX Daemon Server] - 2023-10-25T12:29:35.357Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T12:29:35.357Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T12:29:35.357Z - Handled HASH_TASKS. Handling time: 32. Response time: 0.
+[NX Daemon Server] - 2023-10-25T12:31:51.533Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:31:51.533Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/button-wrapper.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:31:51.768Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:31:51.769Z - [REQUEST]: libs/type-dom-ui/public/button-wrapper.ts,libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T12:31:51.769Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:31:51.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:31:51.818Z - Time taken for 'hash changed files from watcher' 73.74127006530762ms
+[NX Daemon Server] - 2023-10-25T12:31:51.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:31:56.654Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:35:23.265Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:35:23.266Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:35:23.374Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:35:23.579Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:35:23.580Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts,libs/type-dom-ui/public/button-wrapper.ts
+[NX Daemon Server] - 2023-10-25T12:35:23.580Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:35:23.651Z - Time taken for 'hash changed files from watcher' 97.4687430858612ms
+[NX Daemon Server] - 2023-10-25T12:35:23.707Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:35:28.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:41:26.067Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T12:41:26.081Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T12:41:26.574Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:41:26.574Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T12:41:26.574Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:41:26.657Z - Time taken for 'hash changed files from watcher' 69.5569748878479ms
+[NX Daemon Server] - 2023-10-25T12:41:26.710Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:44:01.955Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:44:01.961Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:44:02.220Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/button-wrapper.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:44:02.933Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:44:02.933Z - [REQUEST]: libs/type-dom-ui/public/button-wrapper.ts,libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T12:44:02.933Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:44:03.010Z - Time taken for 'hash changed files from watcher' 155.07794189453125ms
+[NX Daemon Server] - 2023-10-25T12:44:03.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:44:07.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:45:07.290Z - [WATCHER]: libs/type-dom-ui/public/ui-root.ts was modified
+[NX Daemon Server] - 2023-10-25T12:45:07.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:45:07.514Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:45:08.950Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:45:08.950Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T12:45:08.950Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:45:09.030Z - Time taken for 'hash changed files from watcher' 46.33242702484131ms
+[NX Daemon Server] - 2023-10-25T12:45:09.108Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:55:46.062Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:55:46.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:55:46.329Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:55:46.486Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/td-input-item.class.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:55:49.345Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:55:49.345Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/td-input-item.class.ts,libs/type-dom.ts/src/element/html-element/label/label.class.ts,libs/type-dom-ui/src/form/field-item/field-item.abstract.ts
+[NX Daemon Server] - 2023-10-25T12:55:49.345Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:55:49.374Z - Time taken for 'hash changed files from watcher' 48.48776412010193ms
+[NX Daemon Server] - 2023-10-25T12:55:49.430Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:55:51.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:58:17.024Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T12:58:17.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:58:17.229Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/form/input-item/td-input-item.interface.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T12:58:23.473Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T12:58:23.474Z - [REQUEST]: libs/type-dom-ui/src/form/input-item/td-input-item.interface.ts,libs/type-dom-ui/src/form/input-item/td-input-item.class.ts
+[NX Daemon Server] - 2023-10-25T12:58:23.474Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T12:58:23.501Z - Time taken for 'hash changed files from watcher' 36.496289014816284ms
+[NX Daemon Server] - 2023-10-25T12:58:23.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T12:58:28.579Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:00:33.013Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T13:00:33.015Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:00:39.493Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:00:39.493Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:00:39.493Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:00:39.537Z - Time taken for 'hash changed files from watcher' 51.892045974731445ms
+[NX Daemon Server] - 2023-10-25T13:00:39.598Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:00:39.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:00:44.669Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:09:37.298Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T13:09:37.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:09:37.477Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.interface.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:09:43.829Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:09:43.829Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.interface.ts,libs/type-dom.ts/src/type-element/type-element.abstract.ts,libs/type-dom.ts/src/type-node/type-node.interface.ts
+[NX Daemon Server] - 2023-10-25T13:09:43.829Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:09:43.887Z - Time taken for 'hash changed files from watcher' 79.29783201217651ms
+[NX Daemon Server] - 2023-10-25T13:09:43.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:10:46.644Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T13:10:46.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:10:46.755Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:10:53.108Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:10:53.108Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:10:53.108Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:10:53.186Z - Time taken for 'hash changed files from watcher' 47.18515110015869ms
+[NX Daemon Server] - 2023-10-25T13:10:53.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:18:22.592Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T13:18:22.593Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:18:29.109Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:18:29.109Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:18:29.110Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:18:29.196Z - Time taken for 'hash changed files from watcher' 54.76910710334778ms
+[NX Daemon Server] - 2023-10-25T13:18:29.270Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:18:34.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:19:48.463Z - [WATCHER]: libs/type-dom.ts/src/text-node/text-node.class.ts was modified
+[NX Daemon Server] - 2023-10-25T13:19:48.465Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:19:48.890Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/text-node/text-node.class.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:19:54.941Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:19:54.941Z - [REQUEST]: libs/type-dom.ts/src/text-node/text-node.class.ts
+[NX Daemon Server] - 2023-10-25T13:19:54.941Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:19:55.032Z - Time taken for 'hash changed files from watcher' 60.286365032196045ms
+[NX Daemon Server] - 2023-10-25T13:19:55.098Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:20:00.124Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:36:34.645Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T13:36:34.646Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/element/x-element/x-element.class.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:36:41.130Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:36:41.131Z - [REQUEST]: libs/type-dom.ts/src/element/x-element/x-element.class.ts,libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:36:41.131Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:36:41.246Z - Time taken for 'hash changed files from watcher' 68.54917502403259ms
+[NX Daemon Server] - 2023-10-25T13:36:41.298Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:36:46.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:37:49.622Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T13:37:49.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:37:50.008Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T13:37:56.117Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:37:56.117Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:37:56.117Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:37:56.184Z - Time taken for 'hash changed files from watcher' 55.585782051086426ms
+[NX Daemon Server] - 2023-10-25T13:37:56.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:37:56.306Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:26.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:26.882Z - [WATCHER]: 0 file(s) created or restored, 5 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T13:50:26.942Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:26.953Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T13:50:26.993Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:27.004Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-html/button/button.abstract.ts was modified
+fatal: Pathspec 'libs/type-dom-ui/src/form/field-item/radio/field-radio.abstract.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T13:50:33.406Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T13:50:33.406Z - [REQUEST]: libs/type-dom-ui/src/form/field-item/radio/field-radio.abstract.ts,libs/type-dom-ui/src/form/field-item/field-item.abstract.ts,libs/type-dom.ts/src/type-element/type-element.abstract.ts,libs/type-dom-ui/src/basic/td-icon/td-icon.class.ts,libs/type-dom-ui/src/basic/td-select/td-select.class.ts,libs/type-dom-ui/src/basic/td-select/option/option.class.ts,libs/type-dom-ui/src/form/field-item/options/field-options.abstract.ts,libs/type-dom.ts/src/element/x-element/x-element.class.ts,libs/type-dom-ui/src/form/field-item/cascade/field-cascade.abstract.ts,libs/type-dom-ui/src/feedback/overlay/container/footer/footer.ts,libs/type-dom-ui/src/basic/td-button/td-button.class.ts,libs/type-dom.ts/src/type-element/type-html/button/button.abstract.ts
+[NX Daemon Server] - 2023-10-25T13:50:33.406Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T13:50:33.478Z - Time taken for 'hash changed files from watcher' 77.21171879768372ms
+[NX Daemon Server] - 2023-10-25T13:50:33.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:33.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T13:50:38.632Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.610Z - [WATCHER]: 0 file(s) created or restored, 8 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T14:01:38.611Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.666Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.677Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T14:01:38.732Z - [WATCHER]: libs/type-dom-ui/src/feedback/overlay/container/footer/cancel-button/cancel-button.ts was modified
+[NX Daemon Server] - 2023-10-25T14:01:38.732Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.797Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.807Z - [WATCHER]: 0 file(s) created or restored, 8 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T14:01:38.847Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:38.867Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T14:01:38.943Z - [WATCHER]: libs/type-dom-ui/src/feedback/message-box/message-box.ts was modified
+[NX Daemon Server] - 2023-10-25T14:01:38.944Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/feedback/overlay/container/header/title/title.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T14:01:45.074Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:01:45.074Z - [REQUEST]: libs/type-dom-ui/src/feedback/overlay/container/header/title/title.ts,libs/type-dom-ui/src/feedback/overlay/container/header/close-button/close-button.ts,libs/type-dom-ui/src/other/collapsible-box/heading/expand-heading.ts,libs/type-dom-ui/src/feedback/overlay/container/container.ts,libs/type-dom-ui/src/feedback/overlay/overlay.abstract.ts,libs/type-dom-ui/src/feedback/dialog/dialog.ts,libs/type-dom-ui/src/feedback/overlay/container/footer/footer.ts,libs/type-dom-ui/src/form/checkbox-group/checkbox-group.class.ts,libs/type-dom-ui/src/feedback/overlay/container/footer/confirm-button/confirm-button.ts,libs/type-dom.ts/src/type-element/type-component/type-component.abstract.ts,libs/type-dom-ui/src/form/input-item/td-input-item.class.ts,libs/type-dom-ui/src/feedback/overlay/container/footer/cancel-button/cancel-button.ts,libs/type-dom-ui/src/form/field-item/textarea/field-textarea.abstract.ts,libs/type-dom-ui/src/form/field-item/input/field-input.abstract.ts,libs/type-dom-ui/src/feedback/overlay/container/body/body.ts,libs/type-dom-ui/src/form/radio-group/radio-group.class.ts,libs/type-dom-ui/src/feedback/overlay/container/header/header.ts,libs/type-dom-ui/src/form/radio-group/radio-option/radio-option.class.ts,libs/type-dom-ui/src/form/select/select.class.ts,libs/type-dom-ui/src/form/field-item/select/field-select.abstract.ts,libs/type-dom-ui/src/form/checkbox-group/checkbox-option/checkbox-option.class.ts,libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts,libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts,libs/type-dom-ui/src/feedback/message-box/message-box.ts
+[NX Daemon Server] - 2023-10-25T14:01:45.074Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:01:45.100Z - Time taken for 'hash changed files from watcher' 53.89868903160095ms
+[NX Daemon Server] - 2023-10-25T14:01:45.159Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:01:45.386Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:40:14.726Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T14:40:31.848Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:40:31.850Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T14:40:31.850Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:40:31.852Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T14:40:31.853Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T14:40:31.853Z - Time taken for 'total for creating and serializing project graph' 0.35654306411743164ms
+[NX Daemon Server] - 2023-10-25T14:40:31.853Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T14:40:31.853Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-10-25T14:40:32.095Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:40:32.095Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:40:32.095Z - Handled HASH_TASKS. Handling time: 19. Response time: 0.
+[NX Daemon Server] - 2023-10-25T14:42:18.838Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T14:42:24.232Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:42:24.234Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T14:42:24.235Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:42:24.239Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T14:42:24.239Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T14:42:24.239Z - Time taken for 'total for creating and serializing project graph' 0.23952603340148926ms
+[NX Daemon Server] - 2023-10-25T14:42:24.240Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T14:42:24.240Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-10-25T14:42:24.333Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:42:24.333Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:42:24.333Z - Handled HASH_TASKS. Handling time: 2. Response time: 0.
+[NX Daemon Server] - 2023-10-25T14:42:26.385Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:42:31.462Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:44:53.944Z - [WATCHER]: libs/type-dom-ui/public/ui-root.ts was modified
+[NX Daemon Server] - 2023-10-25T14:44:53.944Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T14:44:54.119Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:44:54.119Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T14:44:54.119Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:44:54.213Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:44:54.213Z - Time taken for 'hash changed files from watcher' 59.636618852615356ms
+[NX Daemon Server] - 2023-10-25T14:44:54.283Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:44:59.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:46:10.765Z - [WATCHER]: libs/type-dom-ui/public/ui-root.ts was modified
+[NX Daemon Server] - 2023-10-25T14:46:10.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:46:10.883Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/public/ui-root.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-25T14:46:11.111Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:46:11.111Z - [REQUEST]: libs/type-dom-ui/public/ui-root.ts
+[NX Daemon Server] - 2023-10-25T14:46:11.111Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:46:11.177Z - Time taken for 'hash changed files from watcher' 76.19281792640686ms
+[NX Daemon Server] - 2023-10-25T14:46:11.239Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:48:12.495Z - [WATCHER]: libs/type-dom.ts/src/type-element/type-element.abstract.ts was modified
+[NX Daemon Server] - 2023-10-25T14:48:12.496Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-element/type-element.abstract.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T14:48:12.962Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:48:12.962Z - [REQUEST]: libs/type-dom.ts/src/type-element/type-element.abstract.ts
+[NX Daemon Server] - 2023-10-25T14:48:12.962Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:48:13.065Z - Time taken for 'hash changed files from watcher' 49.39726901054382ms
+[NX Daemon Server] - 2023-10-25T14:48:13.149Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:48:17.661Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:49:51.140Z - [WATCHER]: libs/type-dom.ts/src/type-node/type-node.interface.ts was modified
+[NX Daemon Server] - 2023-10-25T14:49:51.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:49:51.327Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/type-node/type-node.interface.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T14:49:52.015Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:49:52.015Z - [REQUEST]: libs/type-dom.ts/src/type-node/type-node.interface.ts
+[NX Daemon Server] - 2023-10-25T14:49:52.016Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:49:52.095Z - Time taken for 'hash changed files from watcher' 60.4194769859314ms
+[NX Daemon Server] - 2023-10-25T14:49:52.145Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:50:12.210Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-25T14:50:25.879Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:50:25.887Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-25T14:50:25.888Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-25T14:50:25.888Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-25T14:50:25.888Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-25T14:50:25.889Z - Time taken for 'total for creating and serializing project graph' 0.15285611152648926ms
+[NX Daemon Server] - 2023-10-25T14:50:25.891Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-25T14:50:25.892Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2023-10-25T14:50:26.083Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:50:26.083Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-25T14:50:26.083Z - Handled HASH_TASKS. Handling time: 21. Response time: 0.
+[NX Daemon Server] - 2023-10-25T14:56:30.785Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T14:56:30.788Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/element/x-element/x-element.class.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T14:56:31.204Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:56:31.205Z - [REQUEST]: libs/type-dom.ts/src/element/x-element/x-element.class.ts,libs/type-dom.ts/src/type-node/type-node.interface.ts
+[NX Daemon Server] - 2023-10-25T14:56:31.205Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:56:31.522Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:56:31.523Z - Time taken for 'hash changed files from watcher' 227.78564286231995ms
+[NX Daemon Server] - 2023-10-25T14:56:31.547Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:56:31.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:56:31.762Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:56:36.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:57:50.815Z - [WATCHER]: libs/type-dom.ts/src/x-node/x-node.class.ts was modified
+[NX Daemon Server] - 2023-10-25T14:57:50.817Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T14:57:50.886Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/src/x-node/x-node.class.ts' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-25T14:57:51.237Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T14:57:51.237Z - [REQUEST]: libs/type-dom.ts/src/x-node/x-node.class.ts
+[NX Daemon Server] - 2023-10-25T14:57:51.237Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T14:57:51.534Z - Time taken for 'hash changed files from watcher' 157.75310277938843ms
+[NX Daemon Server] - 2023-10-25T14:57:51.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:39.781Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:39.798Z - [WATCHER]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts was modified
+fatal: Pathspec 'apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts' is in submodule 'apps/ofd-editor'
+[NX Daemon Server] - 2023-10-25T15:00:40.387Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T15:00:40.387Z - [REQUEST]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts
+[NX Daemon Server] - 2023-10-25T15:00:40.393Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T15:00:40.649Z - Time taken for 'hash changed files from watcher' 103.49146509170532ms
+[NX Daemon Server] - 2023-10-25T15:00:40.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:41.695Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:41.746Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:41.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:00:46.910Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:01:11.213Z - [WATCHER]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts was modified
+[NX Daemon Server] - 2023-10-25T15:01:11.214Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:01:11.477Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts' is in submodule 'apps/ofd-editor'
+[NX Daemon Server] - 2023-10-25T15:01:12.183Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T15:01:12.183Z - [REQUEST]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts
+[NX Daemon Server] - 2023-10-25T15:01:12.183Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T15:01:12.341Z - Time taken for 'hash changed files from watcher' 90.97159910202026ms
+[NX Daemon Server] - 2023-10-25T15:01:12.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:17.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:17.768Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:17.808Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:17.839Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.044Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.044Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.113Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.114Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.165Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.166Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.234Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.289Z - [WATCHER]: 0 file(s) created or restored, 5 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.354Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.486Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:18.496Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-25T15:04:18.878Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/application-box/application-box.ts' is in submodule 'apps/ofd-editor'
+[NX Daemon Server] - 2023-10-25T15:04:19.562Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-25T15:04:19.563Z - [REQUEST]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/application-box/application-box.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/font-size/font-size.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/cover/cover.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/control-menu-wrapper/form-control-menu-wrapper/form-control-menu-wrapper.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/author/author.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/image-property/image-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-root/doc-root.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/doc-id/doc-id.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/page-size/page-size.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/input-text/input-text.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/content-box/content-box.ts,apps/ofd-editor/src/components/input-item/input-item.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-area/doc-area.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/contents.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/delta-x/delta-x.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/page-area.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/z-order/z-order.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/doc-usage/doc-usage.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/custom-datas/custom-datas.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-area/content/content-box/content-box.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-area/content/application-box/application-box.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/abstract/abstract.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/font-name/font-name.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-area/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/image-property/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/delta-y/delta-y.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/content.ts
+[NX Daemon Server] - 2023-10-25T15:04:19.563Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-25T15:04:19.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:19.788Z - Time taken for 'hash changed files from watcher' 113.42990803718567ms
+[NX Daemon Server] - 2023-10-25T15:04:19.861Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-25T15:04:23.899Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:29:08.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:29:08.988Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2023-10-26T01:29:08.992Z - [WATCHER]: 0 file(s) created or restored, 12 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:29:09.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:29:09.032Z - [WATCHER]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/border-property/content/border-color/border-color.ts was modified
+[NX Daemon Server] - 2023-10-26T01:29:09.830Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/position-property/position-property.ts' is in submodule 'apps/ofd-editor'
+[NX Daemon Server] - 2023-10-26T01:29:12.331Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T01:29:12.331Z - [REQUEST]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/position-property/position-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/border-property/border-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/border-property/content/border-width/border-width.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/image-property/content/resource-id/resource-id.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/pos-y/pos-y.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-area/content/physical-box/physical-box.ts,apps/ofd-editor/src/ofd-editor.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/border-property/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/barcode-property/barcode-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/page-area/content/physical-box/physical-box.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/pos-x/pos-x.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/creation-date/creation-date.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/border-property/content/border-color/border-color.ts
+[NX Daemon Server] - 2023-10-26T01:29:12.331Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T01:29:12.395Z - Time taken for 'hash changed files from watcher' 82.89386200904846ms
+[NX Daemon Server] - 2023-10-26T01:29:12.472Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:29:14.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.668Z - [WATCHER]: 0 file(s) created or restored, 7 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.721Z - [WATCHER]: 0 file(s) created or restored, 11 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.782Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.783Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.839Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.839Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.919Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:02.930Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.984Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:02.984Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:03.041Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:03.041Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:03.099Z - [WATCHER]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/content.ts was modified
+[NX Daemon Server] - 2023-10-26T01:38:03.099Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:03.244Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T01:38:03.245Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/title/control-title.ts' is in submodule 'apps/ofd-editor'
+[NX Daemon Server] - 2023-10-26T01:38:09.237Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T01:38:09.237Z - [REQUEST]: apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/title/control-title.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/control-menu-wrapper/static-control-menu-wrapper/static-control-menu-wrapper.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/structure-wrapper/structure-content/file-item/file-item.ts,apps/ofd-editor/src/core/controls/form/switch/switch.class.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/control-data/control-data.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/subject/subject.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/outlines-wrapper/outline-content/outline-content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/barcode-property/barcode-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/creator/creator.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/signatures/signatures.ts,libs/type-dom.ts/src/element/html-element/division/division.class.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/mod-date/mod-date.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/form-constrict/form-constrict.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/text-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/title/title.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/doc-info.ts,apps/ofd-editor/src/core/controls/form/numerical/numerical.class.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/fill-property/fill-property.ts,apps/ofd-editor/src/core/controls/form/qrcode/qrcode.class.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/structure-wrapper/structure-content/structure-content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/control-prompt/control-prompt.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/line-property/line-property.ts,apps/ofd-editor/src/components/table/data-cell/data-cell.class.ts,libs/type-dom-ui/src/form/field-item/radio/field-radio.abstract.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/control-description/control-description.ts,apps/ofd-editor/src/core/controls/form/radio/radio.class.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/keywords/keywords.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/form-field/form-field.ts,apps/ofd-editor/src/core/menus/arrange-menus/arrange-menus.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/template-property.ts,apps/ofd-editor/src/core/menus/basic-menus/basic-menus.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/page-property/template/content/template-id/template-id.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/common-property.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/ofd-property/doc-info/contents/creator-version/creator-version.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/common-property/content/content.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/right/contents/control-property/text-property/content/font-align/font-align.ts,apps/ofd-editor/src/layout/section/document-list-wrapper/document-wrapper/left/contents/inventory-wrapper/roll-items/roll-items.ts,apps/ofd-editor/src/core/controls/form/barcode/barcode.class.ts
+[NX Daemon Server] - 2023-10-26T01:38:09.237Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T01:38:09.317Z - Time taken for 'hash changed files from watcher' 80.84714388847351ms
+[NX Daemon Server] - 2023-10-26T01:38:09.373Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:38:09.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T01:58:49.876Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T01:59:08.567Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T01:59:08.570Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T01:59:08.570Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T01:59:08.574Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T01:59:08.575Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T01:59:08.575Z - Time taken for 'total for creating and serializing project graph' 0.2856111526489258ms
+[NX Daemon Server] - 2023-10-26T01:59:08.577Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T01:59:08.577Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2023-10-26T01:59:08.788Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-26T01:59:08.788Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-26T01:59:08.788Z - Handled HASH_TASKS. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:05:59.700Z - [WATCHER]: 0 file(s) created or restored, 9 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T02:05:59.701Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:05:59.761Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T02:05:59.772Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/type-form-designer/src/views/layout/body/right/contents/property-item/property-item.abstract.ts' is in submodule 'apps/type-form-designer'
+[NX Daemon Server] - 2023-10-26T02:05:59.929Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:05:59.929Z - [REQUEST]: apps/type-form-designer/src/views/layout/body/right/contents/property-item/property-item.abstract.ts,apps/type-form-designer/src/views/layout/body/right/contents/control-property/table/header/table-header.ts,apps/type-form-designer/src/views/layout/body/left/contents/menus-wrapper/complex-menus-wrapper/complex-menus-wrapper.ts,apps/type-form-designer/src/type-form-designer.ts,apps/type-form-designer/src/views/layout/body/left/contents/menus-wrapper/basic-menus-wrapper/basic-menus.ts,apps/type-form-designer/src/views/layout/body/right/contents/property-item/propoerty-options/property-options.abstract.ts,apps/type-form-designer/src/views/layout/header/navbar/navbar.ts,apps/type-form-designer/src/views/layout/body/right/contents/control-property/control-property.ts,apps/type-form-designer/src/views/layout/body/right/contents/property-item/radio/property-radio.abstract.ts,apps/type-form-designer/src/views/layout/body/left/contents/menus-wrapper/basic-menus-wrapper/basic-menus-wrapper.ts,apps/type-form-designer/src/views/layout/body/right/contents/property-item/cascade/property-cascade.abstract.ts,apps/type-form-designer/src/views/layout/body/left/contents/menus-wrapper/complex-menus-wrapper/complex-menus.ts
+[NX Daemon Server] - 2023-10-26T02:05:59.929Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:06:00.001Z - Time taken for 'hash changed files from watcher' 90.93135190010071ms
+[NX Daemon Server] - 2023-10-26T02:06:00.008Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:06:00.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:06:00.414Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:06:05.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:07:09.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:07:09.964Z - [WATCHER]: apps/type-form-designer/src/views/layout/body/right/contents/control-property/table/editable/table-editable.ts was modified
+fatal: Pathspec 'apps/type-form-designer/src/views/layout/body/right/contents/control-property/table/editable/table-editable.ts' is in submodule 'apps/type-form-designer'
+[NX Daemon Server] - 2023-10-26T02:07:10.235Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:07:10.235Z - [REQUEST]: apps/type-form-designer/src/views/layout/body/right/contents/control-property/table/editable/table-editable.ts
+[NX Daemon Server] - 2023-10-26T02:07:10.235Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:07:10.258Z - Time taken for 'hash changed files from watcher' 56.68859505653381ms
+[NX Daemon Server] - 2023-10-26T02:07:10.314Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:07:10.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:07:36.878Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:07:49.764Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:07:49.766Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:07:49.771Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:07:49.771Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T02:07:49.771Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T02:07:49.771Z - Time taken for 'total for creating and serializing project graph' 0.13091301918029785ms
+[NX Daemon Server] - 2023-10-26T02:07:49.774Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T02:07:49.774Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2023-10-26T02:07:49.958Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:07:49.958Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:07:49.958Z - Handled HASH_TASKS. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:14:12.114Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:14:12.127Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+fatal: Pathspec 'libs/type-dom-ui/src/form/field-item/cascade/field-cascade.abstract.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-26T02:14:12.297Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:14:12.297Z - [REQUEST]: libs/type-dom-ui/src/form/field-item/cascade/field-cascade.abstract.ts,libs/type-dom-ui/src/form/field-item/options/field-options.abstract.ts
+[NX Daemon Server] - 2023-10-26T02:14:12.297Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:14:12.330Z - Time taken for 'hash changed files from watcher' 55.56417989730835ms
+[NX Daemon Server] - 2023-10-26T02:14:12.418Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:14:17.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:17:55.102Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:18:05.767Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:18:05.768Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:18:05.769Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:18:05.771Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T02:18:05.771Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T02:18:05.771Z - Time taken for 'total for creating and serializing project graph' 0.15392518043518066ms
+[NX Daemon Server] - 2023-10-26T02:18:05.771Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T02:18:05.771Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:18:05.979Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:18:05.979Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:18:05.979Z - Handled HASH_TASKS. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:20:24.011Z - [WATCHER]: libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts was modified
+[NX Daemon Server] - 2023-10-26T02:20:24.012Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-26T02:20:24.171Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:20:24.171Z - [REQUEST]: libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts
+[NX Daemon Server] - 2023-10-26T02:20:24.171Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:20:24.195Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:20:24.195Z - Time taken for 'hash changed files from watcher' 43.76696801185608ms
+[NX Daemon Server] - 2023-10-26T02:20:24.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:23:56.855Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T02:23:56.859Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-26T02:23:57.128Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:23:57.128Z - [REQUEST]: libs/type-dom-ui/src/other/collapsible-box/collapsible-box.ts,libs/type-dom.ts/src/type-node/type-node.abstract.ts
+[NX Daemon Server] - 2023-10-26T02:23:57.128Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:23:57.153Z - Time taken for 'hash changed files from watcher' 56.8629629611969ms
+[NX Daemon Server] - 2023-10-26T02:23:57.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:23:57.350Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:24:02.394Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:24:28.098Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T02:24:28.098Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:24:28.099Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T02:24:28.100Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T02:24:28.100Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T02:24:28.101Z - Time taken for 'total for creating and serializing project graph' 0.16157197952270508ms
+[NX Daemon Server] - 2023-10-26T02:24:28.101Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T02:24:28.101Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2023-10-26T02:24:28.181Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:24:28.181Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:24:28.181Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:33:20.303Z - [WATCHER]: libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts was modified
+[NX Daemon Server] - 2023-10-26T02:33:20.303Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-26T02:33:20.458Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:33:20.458Z - [REQUEST]: libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts
+[NX Daemon Server] - 2023-10-26T02:33:20.458Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:33:20.482Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:33:20.482Z - Time taken for 'hash changed files from watcher' 43.96436095237732ms
+[NX Daemon Server] - 2023-10-26T02:33:20.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:28.004Z - [WATCHER]: libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts was modified
+[NX Daemon Server] - 2023-10-26T02:34:28.004Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts' is in submodule 'libs/type-dom-ui'
+[NX Daemon Server] - 2023-10-26T02:34:28.265Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T02:34:28.265Z - [REQUEST]: libs/type-dom-ui/src/other/collapsible-box/contents/contents.ts
+[NX Daemon Server] - 2023-10-26T02:34:28.265Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T02:34:28.331Z - Time taken for 'hash changed files from watcher' 53.14568591117859ms
+[NX Daemon Server] - 2023-10-26T02:34:28.353Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:28.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:33.423Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:37.819Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:38.050Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-10-26T02:34:38.050Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-10-26T02:34:38.050Z - Handled RECORD_OUTPUTS_HASH. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:34:38.097Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2023-10-26T02:34:38.097Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2023-10-26T02:34:38.097Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:34:38.130Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:38.183Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:34:38.241Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:34:38.241Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:34:51.280Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-26T02:39:41.532Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:39:41.538Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-26T02:39:41.539Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:39:41.540Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T02:39:41.540Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T02:39:41.540Z - Time taken for 'total for creating and serializing project graph' 0.13008689880371094ms
+[NX Daemon Server] - 2023-10-26T02:39:41.540Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T02:39:41.540Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:39:41.541Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-26T02:39:41.542Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:39:41.546Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2023-10-26T02:39:41.547Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:39:41.556Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-10-26T02:39:41.564Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-10-26T02:39:41.564Z - Handled REQUEST_FILE_DATA. Handling time: 9. Response time: 8.
+[NX Daemon Server] - 2023-10-26T02:44:58.567Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:44:58.567Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2023-10-26T02:44:58.568Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T02:44:58.570Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T02:44:58.570Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T02:44:58.570Z - Time taken for 'total for creating and serializing project graph' 0.20647478103637695ms
+[NX Daemon Server] - 2023-10-26T02:44:58.570Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T02:44:58.570Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:44:58.687Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:44:58.687Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2023-10-26T02:44:58.687Z - Handled HASH_TASKS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2023-10-26T02:45:07.106Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T02:45:12.129Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T04:47:23.576Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2023-10-26T04:47:23.586Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'apps/type-form-designer/src/core/control/complex/table/table.class.ts' is in submodule 'apps/type-form-designer'
+[NX Daemon Server] - 2023-10-26T04:47:23.775Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T04:47:23.775Z - [REQUEST]: apps/type-form-designer/src/core/control/complex/table/table.class.ts,apps/type-form-designer/src/views/layout/body/left/contents/menus-wrapper/basic-menus-wrapper/basic-menus-wrapper.ts
+[NX Daemon Server] - 2023-10-26T04:47:23.775Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T04:47:23.806Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T04:47:23.807Z - Time taken for 'hash changed files from watcher' 50.12300705909729ms
+[NX Daemon Server] - 2023-10-26T04:47:23.861Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T08:02:06.366Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2023-10-26T08:02:06.366Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T08:02:06.728Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T08:02:06.728Z - [REQUEST]: package.json
+[NX Daemon Server] - 2023-10-26T08:02:06.728Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T08:02:06.752Z - Time taken for 'hash changed files from watcher' 121.58454489707947ms
+[NX Daemon Server] - 2023-10-26T08:02:06.807Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T08:02:06.868Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T08:02:11.881Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:57:25.334Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T09:57:25.335Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T09:57:25.335Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T09:57:25.337Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T09:57:25.338Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T09:57:25.338Z - Time taken for 'total for creating and serializing project graph' 0.32228684425354004ms
+[NX Daemon Server] - 2023-10-26T09:57:25.338Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T09:57:25.338Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2023-10-26T09:57:25.352Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-10-26T09:57:25.358Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-10-26T09:57:25.358Z - Handled REQUEST_FILE_DATA. Handling time: 12. Response time: 6.
+[NX Daemon Server] - 2023-10-26T09:57:25.407Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T09:58:25.468Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T09:58:25.469Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T09:58:25.470Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2023-10-26T09:58:25.471Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2023-10-26T09:58:25.471Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2023-10-26T09:58:25.471Z - Time taken for 'total for creating and serializing project graph' 0.13765883445739746ms
+[NX Daemon Server] - 2023-10-26T09:58:25.471Z - Done responding to the client project-graph
+[NX Daemon Server] - 2023-10-26T09:58:25.471Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2023-10-26T09:58:25.486Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2023-10-26T09:58:25.494Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2023-10-26T09:58:25.494Z - Handled REQUEST_FILE_DATA. Handling time: 11. Response time: 8.
+[NX Daemon Server] - 2023-10-26T09:58:25.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.679Z - [WATCHER]: apps/ofd-editor/.git/index.lock was deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.730Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.730Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.789Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T09:58:46.789Z - [REQUEST]: 
+[NX Daemon Server] - 2023-10-26T09:58:46.789Z - [REQUEST]: apps/ofd-editor/.git/index.lock,apps/type-dom-app/.git/index.lock
+[NX Daemon Server] - 2023-10-26T09:58:46.811Z - [WATCHER]: apps/type-form-designer/.git/index.lock was deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.811Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.812Z - Time taken for 'hash changed files from watcher' 3.941879987716675ms
+[NX Daemon Server] - 2023-10-26T09:58:46.847Z - [WATCHER]: libs/ofd-file/.git/index.lock was deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.847Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.925Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.925Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:46.988Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2023-10-26T09:58:46.988Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/.git/index.lock' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-26T09:58:47.060Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T09:58:47.060Z - [REQUEST]: libs/type-dom.ts/.git/index.lock
+[NX Daemon Server] - 2023-10-26T09:58:47.060Z - [REQUEST]: apps/type-form-designer/.git/index.lock,libs/ofd-file/.git/index.lock,libs/type-dom-svgs/.git/index.lock,libs/type-dom-ui/.git/index.lock
+[NX Daemon Server] - 2023-10-26T09:58:47.090Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2023-10-26T09:58:47.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:47.090Z - Time taken for 'hash changed files from watcher' 40.58208608627319ms
+[NX Daemon Server] - 2023-10-26T09:58:47.090Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2023-10-26T09:58:47.142Z - [WATCHER]: Processing file changes in outputs
+fatal: Pathspec 'libs/type-dom.ts/.git/index' is in submodule 'libs/type-dom.ts'
+[NX Daemon Server] - 2023-10-26T09:58:47.319Z - [REQUEST]: Updated file-hasher based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2023-10-26T09:58:47.319Z - [REQUEST]: libs/type-dom.ts/.git/index
+[NX Daemon Server] - 2023-10-26T09:58:47.319Z - [REQUEST]: libs/type-dom.ts/.git/index.lock,libs/type-node-parser/.git/index.lock
+[NX Daemon Server] - 2023-10-26T09:58:47.337Z - Time taken for 'hash changed files from watcher' 23.24845790863037ms
+[NX Daemon Server] - 2023-10-26T09:58:47.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:58:51.476Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:59:15.428Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:59:15.455Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX Daemon Server] - 2023-10-26T09:59:15.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2023-10-26T09:59:15.522Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted

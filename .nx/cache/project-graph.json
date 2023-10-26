@@ -513,40 +513,22 @@
         "tags": []
       }
     },
-    "type-dom-ui": {
-      "name": "type-dom-ui",
+    "type-dom.ts": {
+      "name": "type-dom.ts",
       "type": "lib",
       "data": {
-        "root": "libs/type-dom-ui",
-        "sourceRoot": "libs/type-dom-ui",
-        "name": "type-dom-ui",
+        "root": "libs/type-dom.ts",
+        "sourceRoot": "libs/type-dom.ts",
+        "name": "type-dom.ts",
         "projectType": "library",
         "targets": {
-          "serve": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "serve"
-            },
-            "configurations": {}
-          },
           "build": {
             "dependsOn": [
               "^build"
             ],
-            "outputs": [
-              "{projectRoot}/dist",
-              "{projectRoot}/public/dist"
-            ],
             "executor": "nx:run-script",
             "options": {
               "script": "build"
-            },
-            "configurations": {}
-          },
-          "lib": {
-            "executor": "nx:run-script",
-            "options": {
-              "script": "lib"
             },
             "configurations": {}
           },
@@ -615,22 +597,40 @@
         "tags": []
       }
     },
-    "type-dom.ts": {
-      "name": "type-dom.ts",
+    "type-dom-ui": {
+      "name": "type-dom-ui",
       "type": "lib",
       "data": {
-        "root": "libs/type-dom.ts",
-        "sourceRoot": "libs/type-dom.ts",
-        "name": "type-dom.ts",
+        "root": "libs/type-dom-ui",
+        "sourceRoot": "libs/type-dom-ui",
+        "name": "type-dom-ui",
         "projectType": "library",
         "targets": {
+          "serve": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "serve"
+            },
+            "configurations": {}
+          },
           "build": {
             "dependsOn": [
               "^build"
             ],
+            "outputs": [
+              "{projectRoot}/dist",
+              "{projectRoot}/public/dist"
+            ],
             "executor": "nx:run-script",
             "options": {
               "script": "build"
+            },
+            "configurations": {}
+          },
+          "lib": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lib"
             },
             "configurations": {}
           },
@@ -941,6 +941,7 @@
         "type": "static"
       }
     ],
+    "type-dom.ts": [],
     "type-dom-ui": [
       {
         "source": "type-dom-ui",
@@ -953,7 +954,6 @@
         "type": "static"
       }
     ],
-    "type-dom.ts": [],
     "ofd-editor": [
       {
         "source": "ofd-editor",

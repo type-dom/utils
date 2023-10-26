@@ -3,6 +3,7 @@
   "version": "independent",
   "license": "MIT",
   "scripts": {
+    "nx-reset": "nx reset",
     "build": "nx run-many -t build",
     "build:since": "nx affected -t build",
     "lint": "nx run-many -t lint",
