@@ -27,6 +27,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "type-dom.ts": "*",
+    "type-parser": "*",
     "type-node-parser": "*"
   },
   "devDependencies": {
@@ -68,15 +69,5 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  },
-  "nx": {
-    "targets": {
-      "build": {
-        "outputs": [
-          "{projectRoot}/dist",
-          "{projectRoot}/public/dist"
-        ]
-      }
-    }
   }
 }

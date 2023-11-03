@@ -37,6 +37,16 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## 引用 type-node-parser的说明
+需要先build type-node-parser
+
+且 type-node-parser 的package.json的main设置为 "./dist/src/index.js",
+ "types": "./dist/src/index.ts"
+
+type-dom-svgs-server 是node 环境。与其它的项目是不一样的。
+
+注意: types对应的index是以 .d.ts结尾的。
+
 ## License
 
 Nest is [MIT licensed](LICENSE).

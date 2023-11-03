@@ -1,0 +1,33 @@
+{
+  "name": "type-node-parser",
+  "version": "0.0.5",
+  "description": "A xml-parser lib wrote by typescript based on Pdf.js xml-parser.js . ",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+  "build": "tsc",
+  "postversion": "rimraf dist && tsc && cp README.md package.json dist && cd dist && npm publish",
+  "test": "jest",
+  "lint": "eslint src",
+  "lint-fix": "eslint 'src/**/*.{ts,js,tsx,jsx}' --fix -o eslint_log.log",
+  "uml": "tsuml2 --glob ./src/**/*.ts",
+  "docs": "typedoc --entryPointStrategy expand ./src",
+  "coverage": "typescript-coverage-report",
+  "push": "git add . && git commit -m 'edit' && git push origin main"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjf7711/type-node-parser.git"
+  },
+  "keywords": [
+    "type-node-parser",
+    "xml-parser",
+    "typescript"
+  ],
+  "author": "Xu",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
